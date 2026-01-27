@@ -1,0 +1,107 @@
+/* Experience Section */
+.experience {
+    padding: 80px 50px;
+    background: linear-gradient(180deg, var(--bg-card) 0%, var(--bg-dark) 100%);
+}
+
+.experience-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.experience-card {
+    background: rgba(26, 26, 46, 0.8);
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent);
+    box-shadow: 0 15px 40px rgba(0, 212, 255, 0.1);
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.experience-title {
+    font-size: 1.3em;
+    color: var(--text-primary);
+    margin-bottom: 5px;
+}
+
+.experience-company {
+    font-size: 1.1em;
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.experience-location {
+    color: var(--text-secondary);
+    font-size: 0.9em;
+}
+
+.experience-date {
+    background: rgba(0, 212, 255, 0.1);
+    color: var(--accent);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.experience-list {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.experience-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    color: var(--text-secondary);
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+.experience-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 6px;
+    height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tech-tag {
+    background: rgba(99, 102, 241, 0.15);
+    color: var(--text-secondary);
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 0.8em;
+}
+
+@media (max-width: 968px) {
+    .experience-header {
+        flex-direction: column;
+    }
+}

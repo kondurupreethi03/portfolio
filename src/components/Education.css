@@ -1,0 +1,69 @@
+/* Education Section */
+.education {
+    padding: 80px 50px;
+    background: var(--bg-dark);
+}
+
+.education-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.education-card {
+    background: rgba(26, 26, 46, 0.6);
+    border-radius: 15px;
+    padding: 30px;
+    border: 1px solid rgba(99, 102, 241, 0.1);
+    transition: all 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent);
+    box-shadow: 0 15px 40px rgba(0, 212, 255, 0.1);
+}
+
+.education-icon {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.education-type {
+    color: var(--text-secondary);
+    font-size: 0.85em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.education-degree {
+    color: var(--text-primary);
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.education-school {
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.education-location {
+    color: var(--text-secondary);
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.education-date {
+    color: var(--text-secondary);
+    font-size: 0.9em;
+}
+
+@media (max-width: 968px) {
+    .education-grid {
+        grid-template-columns: 1fr;
+    }
+}
