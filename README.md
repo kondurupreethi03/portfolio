@@ -53,6 +53,24 @@ The built files will be in the `dist` directory.
 npm run preview
 ```
 
+## GitHub Pages Deployment
+
+This project is configured for GitHub Pages deployment. The site will be available at:
+**https://kondurupreethi03.github.io/Portfolio**
+
+### Automatic Deployment
+
+The project includes a GitHub Actions workflow that automatically deploys to GitHub Pages when you push to the `main` branch.
+
+### Manual Deployment
+
+1. Build the project:
+```bash
+npm run build
+```
+
+2. The `dist` folder contains the production-ready files.
+
 ## Project Structure
 
 ```

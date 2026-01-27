@@ -7,8 +7,10 @@ const BackgroundAnimation = () => {
       const scrolled = window.pageYOffset
       const shapes = document.querySelectorAll('.shape')
       shapes.forEach((shape, index) => {
-        const speed = 0.5 + (index * 0.1)
-        shape.style.transform = `translateY(${scrolled * speed}px)`
+        if (shape) {
+          const speed = 0.5 + (index * 0.1)
+          shape.style.transform = `translateY(${scrolled * speed}px)`
+        }
       })
     }
 
