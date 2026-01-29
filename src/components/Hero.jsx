@@ -41,7 +41,7 @@ const Hero = () => {
           <p>I build secure, scalable, cloud-native enterprise applications using Java (8–17), Spring Boot microservices, Angular/React, and event-driven systems with Kafka. Hands-on experience with AWS/GCP, Kubernetes, CI/CD, and production-grade deployments.</p>
           <div className="hero-buttons">
             <a href="#experience" className="btn btn-primary" onClick={(e) => handleSmoothScroll(e, '#experience')}>View My Work</a>
-            <a href="#contact" className="btn btn-outline" onClick={(e) => handleSmoothScroll(e, '#contact')}>Download Resume</a>
+            <a href="/resume.pdf" className="btn btn-outline" target="_blank" rel="noopener noreferrer">Download Resume</a>
           </div>
         </div>
         <div className="hero-image">
@@ -64,7 +64,7 @@ const Hero = () => {
             </div>
             <div className="contact-item">
               <div className="contact-icon">🔗</div>
-              <a href="https://www.linkedin.com/in/preethi-konduru" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+              <a href="https://www.linkedin.com/in/preethi-konduru03" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
             </div>
             <div className="contact-item">
               <div className="contact-icon">🐙</div>
