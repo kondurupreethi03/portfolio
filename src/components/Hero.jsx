@@ -56,7 +56,7 @@ const Hero = () => {
             </div>
             <div className="contact-item">
               <div className="contact-icon">📱</div>
-              <span>+1 5572281195</span>
+              <span>+1 314 280 6616</span>
             </div>
             <div className="contact-item">
               <div className="contact-icon">📧</div>

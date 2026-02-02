@@ -38,11 +38,11 @@ const ProfessionalSummary = () => {
   const summaries = [
     {
       title: 'Frontend Development',
-      description: 'Frontend-focused Software Developer with 8+ years of experience building responsive, enterprise-grade web applications using Angular 16, React, TypeScript, NgRx, and RxJS. Skilled in developing reusable UI components, multi-step workflow screens, form validations, and role-based routing aligned with regulated domains like Insurance, Healthcare (HIPAA), and Banking.'
+      description: 'Frontend-focused Software Developer with 7+ years of experience building responsive, enterprise-grade web applications using Angular 16, React, TypeScript, NgRx, and RxJS. Skilled in developing reusable UI components, multi-step workflow screens, form validations, and role-based routing aligned with regulated domains like Insurance, Healthcare (HIPAA), and Banking.'
     },
     {
       title: 'Backend Development & Cloud Architecture',
-      description: 'Backend-focused Senior Software Developer with 8+ years of experience designing and delivering scalable Java (8/11/17) applications using Spring Boot microservices, Spring Security, and event-driven architectures with Kafka/Kafka Streams. Proven expertise in building secure REST + GraphQL APIs, implementing OAuth2/JWT + RBAC authorization.'
+      description: 'Backend-focused Senior Software Developer with 7+ years of experience designing and delivering scalable Java (8/11/17) applications using Spring Boot microservices, Spring Security, and event-driven architectures with Kafka/Kafka Streams. Proven expertise in building secure REST + GraphQL APIs, implementing OAuth2/JWT + RBAC authorization.'
     },
     {
       title: 'Database & System Integration',
