@@ -9,7 +9,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <p>© 2025 Preethi Konduru. Built with ❤️ in St. Louis, MO</p>
+      <p>© 2025 Preethi Konduru | Built with React, TypeScript, Tailwind CSS & Vite</p>
     </footer>
   )
 }
